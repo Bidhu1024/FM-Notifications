@@ -12,8 +12,8 @@ const Header = () => {
       }}
     >
       <Box sx={{ display: "flex", gap: "10px" }}>
-        <Typography>Notifications</Typography>
-        <span>3</span>
+        <Typography fontWeight="700">Notifications</Typography>
+        <span style={{padding:' 0 5px', backgroundColor:'navy', color:'white'}}>3</span>
       </Box>
       <Box>
         {" "}
