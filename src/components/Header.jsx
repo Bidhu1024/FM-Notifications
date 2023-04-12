@@ -8,7 +8,7 @@ const Header = () => {
       sx={{
         display: "flex",
         justifyContent: "space-between",
-        padding: "4px 6px",
+        padding: "4px 8px",
       }}
     >
       <Box sx={{ display: "flex", gap: "10px" }}>
