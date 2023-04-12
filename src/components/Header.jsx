@@ -1,9 +1,37 @@
-import React from 'react'
+import { Box, Typography } from "@mui/material";
+import React from "react";
+// import RalewayWoff2 from './fonts/Raleway-Regular.woff2';
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "space-between",
+        padding: "4px 6px",
+      }}
+    >
+      <Box sx={{ display: "flex", gap: "10px" }}>
+        <Typography>Notifications</Typography>
+        <span>3</span>
+      </Box>
+      <Box>
+        {" "}
+        <Typography
+          fontFamily="Raleway, Arial"
+          sx={{
+            color: "gray",
+            "&: hover": {
+              color: "blue",
+              cursor: "pointer",
+            },
+          }}
+        >
+          Mark all as read
+        </Typography>
+      </Box>
+    </Box>
+  );
+};
 
-export default Header
+export default Header;
