@@ -7,11 +7,13 @@ import Box3 from './components/AllNotifications/Box3';
 function App() {
   return (
     <Box sx={{width:'100%', height:'100%', display:'flex',justifyContent:'center', alignItems:'center' }}>
-      <Box sx={{width:'60%', height:'100%', marginTop:'4rem'}}>
+      <Box sx={{width:'60%', height:'100%', marginTop:'4rem',}}>
       <Header />
+      <Box sx={{display:'flex', justifyContent:'center', flexDirection:'column', alignItems:'center'}}>
       <Box1/>
       <Box2 />
       <Box3 />
+      </Box>
       </Box>
     </Box>
   );
