@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Box1 from "./components/AllNotifications/Box1";
 import Box2 from "./components/AllNotifications/Box2";
 import Box3 from './components/AllNotifications/Box3';
+import Box4 from "./components/AllNotifications/Box4";
 function App() {
   return (
     <Box sx={{width:'100%', height:'100%', display:'flex',justifyContent:'center', alignItems:'center' }}>
@@ -13,6 +14,7 @@ function App() {
       <Box1/>
       <Box2 />
       <Box3 />
+      <Box4 />
       </Box>
       </Box>
     </Box>
