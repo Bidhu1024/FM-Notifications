@@ -3,7 +3,7 @@ import React from "react";
 import image1 from "../../assets/images/avatar-mark-webber.webp";
 const Box1 = () => {
   return (
-    <Box sx={{display:'flex', alignItems:'center', padding:'8px 25px', gap:'20px',width:'80%' }}>
+    <Box sx={{display:'flex', alignItems:'center',justifyContent:'start', padding:'8px 10px', gap:'20px',width:'80%', backgroundColor:'rgba(233, 239, 240,0.5)' }}>
       <Box>
         <img src={image1} alt="img1" height={50} width={50} />{" "}
       </Box>
