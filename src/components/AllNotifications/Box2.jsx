@@ -8,7 +8,7 @@ const Box2 = () => {
         <img src={image2} height={50} width={50} alt="angela gray" />
       </Box>
       <Box>
-        <Box><Typography><span>Angela Gray</span><span style={{color:'grey'}}> followed you</span></Typography></Box>
+        <Box><Typography fontSize='14px'><span style={{fontWeight:'bold', color:'#1a2547', cursor:'pointer',}}>Angela Gray</span><span style={{color:'grey'}}> followed you</span></Typography></Box>
         <Box><Typography fontSize="12px" color="grey">5m ago</Typography></Box>
       </Box>
     </Box>
