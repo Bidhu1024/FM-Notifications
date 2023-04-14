@@ -10,7 +10,7 @@ const Box3 = () => {
       </Box>
       <Box>
         <Box sx={{display:'flex', alignItems:'center', gap:'4px'}}><Typography  fontSize='14px'><span style={{fontWeight:'bold'}}>Jacob Thompson</span> <span style={{color:"grey"}}>has joined your group</span> <span style={{fontWeight:'bold', color:'#1a2547', cursor:'pointer',}}>Chess Club  </span></Typography> <RedDot/></Box>
-        <Box><Typography fontSize="12px" color="grey">1 day ago</Typography></Box>
+        <Box><Typography fontSize="12px" color="grey">2 weeks ago</Typography></Box>
       </Box>
     </Box>
   );

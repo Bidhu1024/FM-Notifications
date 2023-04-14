@@ -7,6 +7,7 @@ import Box3 from './components/AllNotifications/Box3';
 import Box4 from "./components/AllNotifications/Box4";
 import Box5 from './components/AllNotifications/Box5';
 import Box6 from './components/AllNotifications/Box6';
+import Box7 from './components/AllNotifications/Box7';
 function App() {
   return (
     <Box sx={{width:'100%', height:'100%', display:'flex',justifyContent:'center', alignItems:'center' }}>
@@ -19,6 +20,7 @@ function App() {
       <Box4 />
       <Box5 />
       <Box6 />
+      <Box7/>
       </Box>
       </Box>
     </Box>
