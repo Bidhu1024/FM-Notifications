@@ -4,7 +4,7 @@ import { Box,Typography } from "@mui/material";
 
 const Box6 = () => {
   return (
-    <Box sx={{display:'flex', alignItems:'center',justifyContent:'start', padding:'8px 10px', gap:'20px',width:'80%'}}>
+    <Box sx={{display:'flex',boxShadow:'1', alignItems:'center',justifyContent:'start', padding:'8px 10px', gap:'20px',width:'80%'}}>
       <Box>
         <img src={image7} height={50} width={50} alt="nathan" />
       </Box>

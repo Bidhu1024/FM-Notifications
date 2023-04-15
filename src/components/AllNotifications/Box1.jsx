@@ -4,7 +4,7 @@ import image1 from "../../assets/images/avatar-mark-webber.webp";
 import RedDot from "../RedDot"
 const Box1 = () => {
   return (
-    <Box sx={{display:'flex', alignItems:'center',justifyContent:'start', padding:'8px 10px', gap:'20px',width:'80%', backgroundColor:'rgba(233, 239, 240,0.5)' }}>
+    <Box sx={{display:'flex',boxShadow:'1', alignItems:'center',justifyContent:'start', padding:'8px 10px', gap:'20px',width:'80%', backgroundColor:'rgba(233, 239, 240,0.5)' }}>
       <Box>
         <img src={image1} alt="img1" height={50} width={50} />{" "}
       </Box>
