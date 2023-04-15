@@ -15,8 +15,9 @@ function App() {
     
         display: "flex",
         justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "red",
+
+            alignItems: "center",
+        backgroundColor: "#e4edf0",
         
       }}
     >
@@ -25,8 +26,7 @@ function App() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          height: "auto",
-          width: "70%",
+         
           alignItems: "center",
           gap: "8px",
           backgroundColor: "white",
