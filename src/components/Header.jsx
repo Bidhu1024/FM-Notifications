@@ -8,7 +8,8 @@ const Header = () => {
       sx={{
         display: "flex",
         justifyContent: "space-between",
-        padding: "4px 8px",
+        padding: "8px 10px",
+        width:'80%'
       }}
     >
       <Box sx={{ display: "flex", gap: "10px" }}>
@@ -16,7 +17,7 @@ const Header = () => {
         <span style={{padding:' 0 5px', backgroundColor:'navy', color:'white'}}>3</span>
       </Box>
       <Box>
-        {" "}
+      
         <Typography
           fontFamily="Raleway, Arial"
           sx={{
