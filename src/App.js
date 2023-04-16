@@ -12,13 +12,11 @@ function App() {
   return (
     <Box
       sx={{
-    
         display: "flex",
         justifyContent: "center",
 
-            alignItems: "center",
+        alignItems: "center",
         backgroundColor: "#e4edf0",
-        
       }}
     >
       <Box
@@ -26,8 +24,11 @@ function App() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-         
           alignItems: "center",
+          width:{
+            sm:"90%",
+            lg:'60%'
+          },
           gap: "8px",
           backgroundColor: "white",
         }}

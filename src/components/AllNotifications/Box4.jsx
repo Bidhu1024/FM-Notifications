@@ -3,7 +3,7 @@ import React from "react";
 import image4 from "../../assets/images/avatar-rizky-hasanuddin.webp"
 const Box4 = () => {
   return (
-<Box sx={{display:'flex', boxShadow:'1',padding:'8px 10px', gap:'20px',width:'80%'}}>    
+<Box sx={{display:'flex',padding:'8px 10px', gap:'20px',width:'80%'}}>    
       <Box ><img src={image4} height={50} width={50} alt="rizky" /></Box>
       <Box>
         <Box><Typography sx={{color:'grey', fontSize:'14px'}}><span style={{fontSize:'14px', color:'black', fontWeight:'bold'}}>Rizky Hasanuddin </span> <span>sent you a private message</span></Typography></Box>
